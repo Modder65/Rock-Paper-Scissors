@@ -1,2 +1,2 @@
 # rock-paper-scissors
-Basic rock paper scissors game using JavaScript.
+This will be a very basic rock-paper-scissors prompt game created with javascript.
