@@ -2,10 +2,31 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
         <title>Rock-Paper-Scissors</title>
     </head>
     <body>
-        
+        <header>
+                <h1>Rock-Paper-Scissors</h1>
+        </header>
+        <div class="buttoncontainer">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+        <div class="scores">
+            <div class="playerScore">
+                <p id="playerScoreText">0</p>
+                <p>Player Score</p>
+            </div>
+            <div class="scoreAlertContainer">
+                <p id="scoreAlertText"></p>
+            </div>
+            <div class="computerScore">
+                <p id="computerScoreText">0</p>
+                <p>Computer Score</p>
+            </div>
+        </div>   
     </body>
 </html>
